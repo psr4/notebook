@@ -17,7 +17,7 @@ linux	/boot/vmlinuz-4.15.0-30deepin-generic root=UUID=xxxx ro  splash quiet acpi
 ##### 永久解决方法
 开机后 打开终端 运行
 ```shell
-sudo vim /boot/grub/grub.cfg
+sudo vim /etc/default/grub
 ```
-找到第一个 quiet 同样在后面增加 acpi_osi=! acpi="windows 2009"
->我的电脑大概在135行左右
+找到第一个 quiet 同样在后面增加 acpi_osi=! acpi='windows 2009'
+
