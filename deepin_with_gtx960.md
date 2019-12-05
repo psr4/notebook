@@ -19,5 +19,5 @@ linux	/boot/vmlinuz-4.15.0-30deepin-generic root=UUID=xxxx ro  splash quiet acpi
 ```shell
 sudo vim /etc/default/grub
 ```
-找到第一个 quiet 同样在后面增加 acpi_osi=! acpi='windows 2009'
+找到 quiet 同样在后面增加 acpi_osi=! acpi='windows 2009'
 
